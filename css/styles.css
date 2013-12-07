@@ -1,0 +1,63 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #999999;
+	color: white;
+	text-align: center;
+}
+
+.clear {clear:left; display: block; visibility: hidden;}
+.hide {display: block; width: 0; height: 0; text-indent: -1000em; overflow: hidden;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+p, ul, li, td, h5, h6 {
+	font-size: 1em;
+	line-height: 1.35em;}
+h1 {font-size: 1.8em; 
+	text-align:left;}
+h2 {font-size: 1.6em;}
+h3 {font-size: 1.4em;}
+h4 {font-size: 1.2em;}
+
+em {color: #3e3e3e;}
+
+h1 {margin: 0 0 1em 0;}
+h2 {margin: 0 0 1em 0;}
+h3 {margin: 1em 0 1em 0;}
+h4 {margin: .67em 0 .67em 0;}
+h5 {margin: .67em 0 .5em 0;}
+h6 {margin: 0 0 .5em 0;}
+
+#wrapper {
+	display: block;
+	color: black;
+	background-color: #cccccc;
+	width: 800px;
+	background-position: center;
+	border: 1px solid green;
+}
+
+#header {
+	margin-bottom: 1em;
+	line-height: 100%;
+	border: 1px solid red;
+}
+
+#sidebar {
+	width: 200px;
+	position: left;
+	text-align: left;
+	border: 1px solid yellow;
+}
+
+.content {
+	display: block;
+	float: left;
+	text-align: left;
+	border: 1px solid blue;
+}
+
+#footer {
+	border: 1px solid purple;
+}
